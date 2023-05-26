@@ -1,0 +1,74 @@
+#main-title {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(68, 94, 147);
+    font-weight: 1000;
+}
+h4 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(68, 94, 147);
+    font-weight: 600;
+}
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(68, 94, 147);
+    font-weight: 400;
+}
+#index {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(68, 94, 147);
+    font-weight: 700;
+    text-decoration: none;
+}
+.sumary {
+    text-decoration: none;
+    line-height: 2;
+}
+p, li {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+body {
+    margin-left: 40px;
+    background-color: rgb(229, 237, 245);
+}
+#profile-photo {
+    display: flex;
+    justify-content: center;
+}
+.description {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(26, 147, 111);
+    font-weight: 600;
+}
+.images {
+    border-radius: 200px;
+}
+.Criatividade {
+    font-size: 20px;
+    line-height: 4;
+}
+.Determinacao {
+    font-size: 18px;
+    line-height: 4;
+}
+.Comprometimento {
+    font-size: 16px;
+    line-height: 4;
+}
+.Jogador {
+    font-size: 14px;
+    line-height: 4;
+    color: rgb(68, 94, 147);
+    font-weight: 800;
+}
+.button {
+    line-height: 2;
+    text-decoration: none;
+    background-color: rgb(68, 94, 147);
+    color: rgb(229, 237, 245);
+    border-radius: 4px;
+    padding: 15px 30px;
+}

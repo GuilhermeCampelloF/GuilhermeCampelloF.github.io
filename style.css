@@ -1,14 +1,20 @@
 #main-title {
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(68, 94, 147);
+    color: whitesmoke;
     font-weight: 1000;
+    border-radius: 100px;
+    padding: 10px 20px;
+    background-color: rgb(68, 94, 147);
+    width: 400px;
+    margin: auto;
 }
-h4 {
+#name {
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(68, 94, 147);
-    font-weight: 600;
+    font-weight: 200;
+    font-size: large;
 }
 h2 {
     font-family: 'Open Sans', sans-serif;
@@ -30,21 +36,25 @@ p, li {
     text-decoration: none;
 }
 body {
-    margin-left: 40px;
+    padding: 20px;
     background-color: rgb(229, 237, 245);
+    overflow-x: hidden;
 }
 #profile-photo {
-    display: flex;
-    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    float: left;
+    border-radius: 200px;
+    border: 2px solid rgb(26, 147, 111);
+    height: 300px;
 }
 .description {
-    text-align: center;
     font-family: 'Open Sans', sans-serif;
     color: rgb(26, 147, 111);
-    font-weight: 600;
-}
-.images {
-    border-radius: 200px;
+    height: 300px;
+    position: relative;
+    top: 120px;
+    left: 360px;
 }
 .Criatividade {
     font-size: 20px;
@@ -63,6 +73,9 @@ body {
     line-height: 4;
     color: rgb(68, 94, 147);
     font-weight: 800;
+}
+ul li:nth-child(odd) {
+    list-style: georgian;
 }
 .button {
     line-height: 2;
